@@ -1,0 +1,121 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #774A47; /* Background color */
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: rgba(0, 0, 0, 0.4); /* Transparent background */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar .logo {
+  font-family: 'Poor Story', cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar nav a {
+  font-family: 'Poor Story', cursive;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+  color: #774A47; /* Highlight on hover */
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+.search button {
+  margin-left: 5px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url("assets/background.jpg") no-repeat center center/cover; 
+  /* 👉 replace "assets/background.jpg" with your homepage background image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 60px; /* to avoid navbar overlap */
+}
+
+.hero h1 {
+  font-family: 'Jacques Francois Shadow', cursive;
+  font-size: 90px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.hero p {
+  font-family: 'Poor Story', cursive;
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+/* Locations Section */
+.locations {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.polaroid {
+  background: white;
+  padding: 10px 10px 20px 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transform: rotate(-2deg);
+  width: 200px;
+  text-align: center;
+  color: #000;
+  font-family: 'Poor Story', cursive;
+}
+
+.polaroid:nth-child(2) { transform: rotate(2deg); }
+.polaroid:nth-child(3) { transform: rotate(-1deg); }
+.polaroid:nth-child(4) { transform: rotate(3deg); }
+
+.polaroid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.polaroid p {
+  font-size: 18px;
+  margin: 0;
+}
