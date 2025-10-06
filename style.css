@@ -73,14 +73,14 @@ body {
 
 .hero h1 {
   font-family: 'Jacques Francois Shadow', cursive;
-  font-size: 90px;
+  font-size: 100px;
   margin: 0;
   font-weight: 400;
 }
 
 .hero p {
   font-family: 'Poor Story', cursive;
-  font-size: 24px;
+  font-size: 30px;
   margin-top: 15px;
 }
 
@@ -102,6 +102,8 @@ body {
   text-align: center;
   color: #000;
   font-family: 'Poor Story', cursive;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .polaroid:nth-child(2) { transform: rotate(2deg); }
@@ -116,6 +118,6 @@ body {
 }
 
 .polaroid p {
-  font-size: 18px;
-  margin: 0;
+  font-size: 30px;
+  margin:0;
 }

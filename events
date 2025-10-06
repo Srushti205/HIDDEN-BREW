@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hidden Corners — Pune Events</title>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  /* === Body Styling === */
+  body {
+    background: url("C:/Users/Namita Jain/Desktop/templates html/image.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    color: beige;
+  }
+
+  /* === Main Content Block === */
+  .sheet {
+    width: 42vw;
+    max-width: 760px;
+    min-width: 500px;
+    box-sizing: border-box;
+    padding: 6% 7%;
+    background: transparent;
+    transform: scale(1.4);
+    transform-origin: top center;
+  }
+
+  /* === Heading 1: Main Title === */
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+
+  /* === Heading 2: Venue Titles === */
+  h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    margin: 25px 0 10px 0;
+    color: beige;
+  }
+
+  /* === Bullet List Styling === */
+  ul {
+    list-style-type: disc;
+    margin-left: 30px;
+    padding-left: 0;
+  }
+
+  /* === Event Text === */
+  li.event {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    margin: 10px 0;
+    color: beige;
+  }
+
+  li.event i {
+    font-style: italic;
+  }
+
+  b {
+    font-weight: bold;
+    color: beige;
+  }
+
+  /* === Responsive Adjustments === */
+  @media (max-width: 1024px) {
+    .sheet {
+      width: 78vw;
+      min-width: 340px;
+      padding: 5% 6%;
+      transform: scale(1);
+    }
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+    li.event { font-size: 1.2rem; line-height: 1.6; }
+  }
+</style>
+</head>
+<body>
+  <div class="sheet">
+    <!-- === Main Title === -->
+    <h1>Hidden Corners, Happening Moments — Pune Events</h1>
+
+    <!-- === Venue 1 === -->
+    <h2>Wild Bean Café – Koregaon Park</h2>
+    <ul>
+      <li class="event"><i>Sip &amp; Paint Evening</i> – Sat, Oct 4 | 6:30 PM – 9:00 PM (<b>₹499 incl. materials</b>)</li>
+      <li class="event"><i>Indie Acoustic Night</i> – Fri, Oct 10 | 8:00 PM – 10:00 PM (<b>Free entry</b>)</li>
+      <li class="event"><i>Family Board Game Sunday</i> – Sun, Oct 19 | 11:00 AM – 2:00 PM (<b>₹250 per family</b>)</li>
+    </ul>
+
+    <!-- === Venue 2 === -->
+    <h2>Hippie At Heart – Kothrud</h2>
+    <ul>
+      <li class="event"><i>Book Swap Brunch</i> – Sun, Oct 5 | 10:30 AM – 1:00 PM (<b>Free + food at menu price</b>)</li>
+      <li class="event"><i>Bake With Us (Kids &amp; Teens)</i> – Sat, Oct 11 | 4:00 PM – 6:00 PM (<b>₹399 per child</b>)</li>
+      <li class="event"><i>Open Mic Fridays</i> – Fri, Oct 17 | 7:30 PM – 10:00 PM (<b>Free entry, F&amp;B extra</b>)</li>
+      <li class="event"><i>Pasta Making for Beginners</i> – Sun, Oct 26 | 4:00 PM – 6:00 PM (<b>₹399</b>)</li>
+    </ul>
+
+    <!-- === Venue 3 === -->
+    <h2>Le Plasir – Prabhat Road</h2>
+    <ul>
+      <li class="event"><i>Tea Tasting Journey</i> – Sun, Oct 12 | 5:00 PM – 7:00 PM (<b>₹349</b>)</li>
+      <li class="event"><i>Bollywood Karaoke Night</i> – Fri, Oct 24 | 8:00 PM – 10:30 PM (<b>Free entry</b>)</li>
+      <li class="event"><i>Clay &amp; Craft Corner (Kids)</i> – Sat, Oct 25 | 3:00 PM – 5:00 PM (<b>₹299</b>)</li>
+    </ul>
+
+    <!-- === Venue 4 === -->
+    <h2>Tsuki – Koregaon Park</h2>
+    <ul>
+      <li class="event"><i>Morning Yoga &amp; Smoothie Bowls</i> – Sat, Oct 4 | 8:00 AM – 9:30 AM (<b>₹299</b>)</li>
+      <li class="event"><i>Outdoor Movie Night</i> – Sat, Oct 18 | 7:00 PM – 9:30 PM (<b>₹199 incl. popcorn</b>)</li>
+      <li class="event"><i>Trivia Thursdays</i> – Thu, Oct 23 | 7:00 PM – 9:00 PM (<b>Free entry</b>)</li>
+    </ul>
+
+    <!-- === Venue 5 === -->
+    <h2>Mamagoto – SB Road</h2>
+    <ul>
+      <li class="event"><i>DIY Pizza Party</i> – Sun, Oct 5 | 12:00 PM – 2:00 PM (<b>₹499 per duo</b>)</li>
+      <li class="event"><i>Jazz &amp; Blues Night</i> – Sat, Oct 11 | 8:00 PM – 10:00 PM (<b>₹299 cover</b>)</li>
+      <li class="event"><i>Artisan Pop-Up Market</i> – Sun, Oct 26 | 11:00 AM – 6:00 PM (<b>Free entry</b>)</li>
+    </ul>
+
+    <!-- === Venue 6 === -->
+    <h2>Grandmama’s Café – Koregaon Park</h2>
+    <ul>
+      <li class="event"><i>Floral Arrangement Workshop</i> – Sat, Oct 18 | 11:00 AM – 1:00 PM (<b>₹399</b>)</li>
+      <li class="event"><i>Storytelling Circle</i> – Sun, Oct 19 | 5:00 PM – 6:30 PM (<b>Free entry</b>)</li>
+      <li class="event"><i>Silent Disco Saturdays</i> – Sat, Oct 25 | 8:00 PM – 11:00 PM (<b>₹499</b>)</li>
+    </ul>
+
+    <!-- === Venue 7 === -->
+    <h2>East Street Café – Camp</h2>
+    <ul>
+      <li class="event"><i>Coffee Brewing Masterclass</i> – Sat, Oct 4 | 4:00 PM – 5:30 PM (<b>₹299</b>)</li>
+      <li class="event"><i>Sketch &amp; Latte Sessions</i> – Sun, Oct 12 | 11:00 AM – 1:00 PM (<b>Free</b>)</li>
+      <li class="event"><i>Retro Gaming Night</i> – Fri, Oct 31 | 7:30 PM – 10:00 PM (<b>₹199</b>)</li>
+    </ul>
+
+    <!-- === Venue 8 === -->
+    <h2>Madeline Café – Kothrud</h2>
+    <ul>
+      <li class="event"><i>Improv Comedy Jam</i> – Fri, Oct 10 | 7:30 PM – 9:00 PM (<b>Free entry</b>)</li>
+      <li class="event"><i>Art &amp; Flea Bazaar</i> – Sun, Oct 19 | 12:00 PM – 7:00 PM (<b>Free</b>)</li>
+      <li class="event"><i>Succulent Potting Workshop</i> – Sun, Oct 12 | 3:00 PM – 5:00 PM (<b>₹349</b>)</li>
+    </ul>
+
+  </div>
+</body>
+</html>

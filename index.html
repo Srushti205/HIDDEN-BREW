@@ -35,7 +35,7 @@
     <!-- Insert background image in CSS (style.css) -->
     <div class="hero-text">
       <h1>Hidden Brew</h1>
-      <p>filtered by what you love &lt;3</p>
+      <p><u>filtered by what you love &lt;3</u></p>
     </div>
   </section>
 
@@ -62,3 +62,227 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hidden Brew - Our Story</title>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&family=Itim&family=Krub:wght@400;500&display=swap" rel="stylesheet">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Itim', cursive;
+        background-color: #f5f5f5;
+    }
+
+    /* Use flex to align left and right sections */
+    .container {
+        display: flex;
+        min-height: 100vh;
+        align-items: flex-start;
+    }
+
+    .left-section {
+        background-color: #774A47;
+        color: white;
+        padding: 50px 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 70%;
+        height: 100vh;
+    }
+
+    .story-and-tagline {
+        margin-bottom: 60px;
+    }
+
+    h1 {
+        font-family: 'Italianno', cursive;
+        font-size: 85px;
+        margin-bottom: 25px;
+        font-weight: 400;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .story-text {
+        font-size: 18px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+        text-align: center;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .story-text p {
+        margin-bottom: 15px;
+    }
+
+    .tagline {
+        font-size: 18px;
+        line-height: 1.7;
+        margin-top: 5px;
+        text-align: center;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-info {
+        font-family: 'Krub', sans-serif;
+        font-size: 15px;
+        line-height: 1.6;
+        margin-top: auto; /* push contact info to bottom */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info p {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        flex-wrap: wrap;
+    }
+
+    .contact-info a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+
+    .icon {
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+        flex-shrink: 0;
+    }
+
+    .right-section {
+        width: 30%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .photo-container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    .photo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* Desktop adjustments */
+    @media (max-width: 1200px) {
+        h1 {
+            font-size: 70px;
+        }
+        .story-text, .tagline {
+            font-size: 16px;
+        }
+        .contact-info {
+            font-size: 14px;
+        }
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+        .left-section, .right-section {
+            width: 100%;
+        }
+        .left-section {
+            padding: 30px 20px;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        .story-text, .tagline {
+            font-size: 14px;
+        }
+        .contact-info {
+            font-size: 13px;
+        }
+        .photo-container {
+            max-height: 300px;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="left-section">
+        <div class="story-and-tagline">
+            <h1>Our Story</h1>
+            <div class="story-text">
+                <p>We're five friends brought together by a love for coffee. 
+                   From late-night study sessions to endless café conversations, 
+                   we realized that every cup holds a memory.</p>
+                <p>So we built Hidden Brew &lt;3 to help you find cafés 
+                     that aren't just places, but stories waiting to be told.</p>
+            </div>
+            <div class="tagline">
+                <p>Because every flavor tells a story.<br>What will yours be?</p>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            <p>
+                <svg class="icon" viewBox="0 0 24 24" fill="white">
+                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                </svg>
+                Contact Us- 91+454372818
+            </p>
+            <p>
+                <svg class="icon" viewBox="0 0 24 24" fill="white">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                Facebook- <a href="https://facebook.com/hiddenbrewofficial" target="_blank">facebook.com/hiddenbrewofficial</a>
+            </p>
+            <p>
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <circle cx="12" cy="12" r="3"/>
+                    <circle cx="17.5" cy="6.5" r="1.5" fill="white"/>
+                </svg>
+                Instagram- <a href="https://instagram.com/hiddenbrew.co" target="_blank">instagram.com/hiddenbrew.co</a>
+            </p>
+            <p>
+                <svg class="icon" viewBox="0 0 24 24" fill="white">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+                Email- <a href="mailto:hey.hiddenbrew@gmail.com">hey.hiddenbrew@gmail.com</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="right-section">
+        <div class="photo-container">
+            <img src="assets/about us(our story).jpg" alt="Hidden Brew Creative Stories" class="photo">
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
